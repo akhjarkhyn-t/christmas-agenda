@@ -285,8 +285,28 @@ const Hero = () => {
           {/* Ground/Snow base */}
           <rect x="0" y="280" width="1920" height="40" fill="#e8f4f8" opacity="0.3" />
           
-          {/* Snow-covered Tree 1 - Left */}
+          {/* Fence - Behind trees */}
           <g>
+            {/* Fence posts */}
+            <rect x="400" y="200" width="8" height="80" fill="#000000" />
+            <rect x="500" y="200" width="8" height="80" fill="#000000" />
+            <rect x="600" y="200" width="8" height="80" fill="#000000" />
+            <rect x="700" y="200" width="8" height="80" fill="#000000" />
+            <rect x="800" y="200" width="8" height="80" fill="#000000" />
+            <rect x="900" y="200" width="8" height="80" fill="#000000" />
+            <rect x="1000" y="200" width="8" height="80" fill="#000000" />
+            <rect x="1100" y="200" width="8" height="80" fill="#000000" />
+            <rect x="1200" y="200" width="8" height="80" fill="#000000" />
+            <rect x="1300" y="200" width="8" height="80" fill="#000000" />
+            <rect x="1400" y="200" width="8" height="80" fill="#000000" />
+            {/* Horizontal rails */}
+            <rect x="400" y="220" width="1000" height="6" fill="#000000" />
+            <rect x="400" y="250" width="1000" height="6" fill="#000000" />
+            <rect x="400" y="200" width="1000" height="6" fill="#000000" />
+          </g>
+          
+          {/* Snow-covered Tree 1 - Left - In front of fence */}
+          <g transform="translate(300, 0)">
             {/* Tree trunk */}
             <rect x="200" y="240" width="12" height="40" fill="#4a3728" />
             {/* Tree branches with snow */}
@@ -298,8 +318,8 @@ const Hero = () => {
             <ellipse cx="206" cy="180" rx="20" ry="18" fill="rgba(255, 255, 255, 0.9)" />
           </g>
           
-          {/* Snow-covered Tree 2 - Right */}
-          <g>
+          {/* Snow-covered Tree 2 - Right - In front of fence */}
+          <g transform="translate(-200, 0)">
             {/* Tree trunk */}
             <rect x="1600" y="250" width="12" height="30" fill="#4a3728" />
             {/* Tree branches with snow */}
@@ -309,26 +329,6 @@ const Hero = () => {
             <ellipse cx="1560" cy="210" rx="22" ry="18" fill="rgba(255, 255, 255, 0.9)" />
             <ellipse cx="1650" cy="210" rx="22" ry="18" fill="rgba(255, 255, 255, 0.9)" />
             <ellipse cx="1606" cy="190" rx="18" ry="16" fill="rgba(255, 255, 255, 0.9)" />
-          </g>
-          
-          {/* Fence */}
-          <g>
-            {/* Fence posts */}
-            <rect x="400" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="500" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="600" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="700" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="800" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="900" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="1000" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="1100" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="1200" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="1300" y="200" width="8" height="80" fill="#5a4a3a" />
-            <rect x="1400" y="200" width="8" height="80" fill="#5a4a3a" />
-            {/* Horizontal rails */}
-            <rect x="400" y="220" width="1000" height="6" fill="#5a4a3a" />
-            <rect x="400" y="250" width="1000" height="6" fill="#5a4a3a" />
-            <rect x="400" y="200" width="1000" height="6" fill="#5a4a3a" />
           </g>
           
           {/* Golomt Building SVG - Positioned at bottom, centered and aligned with ground */}
@@ -351,8 +351,8 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 animate-pulse">
             AGENDA
           </h1>
-          <p className="text-xl md:text-2xl text-white/80">
-            Welcome to the Event
+          <p className="text-4xl md:text-6xl lg:text-7xl text-white/90" style={{ fontFamily: "'MOGUL Script', cursive" }}>
+            Шинэ Жил 2025
           </p>
         </div>
       </div>
