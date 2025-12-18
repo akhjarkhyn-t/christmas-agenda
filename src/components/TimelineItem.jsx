@@ -73,7 +73,9 @@ const TimelineItem = ({ item, index }) => {
                 src={item.image}
                 alt={item.title}
                 className={`w-full h-32 md:h-48 object-cover rounded-lg transition-all duration-300 ${
-                  item.blur ? 'blur-sm hover:blur-none' : 'grayscale hover:grayscale-0'
+                  // If blur is enabled, start blurred and reveal on hover.
+                  // Otherwise, keep images full-color (no default grayscale).
+                  item.blur ? 'blur-sm hover:blur-none' : ''
                 }`}
               />
             </div>
