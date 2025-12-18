@@ -104,7 +104,7 @@ const AfterParty = () => {
             willChange: 'opacity, transform'
           }}
         >
-          AFTERPARTY SUGGESTION
+          Афтерпарти?
         </h2>
         
         {/* Content with scroll animation */}
