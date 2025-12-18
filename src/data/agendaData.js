@@ -1,43 +1,81 @@
 export const agendaData = [
   {
-    time: "18:00",
-    title: "Хүлээн авах",
-    description: "Зочдыг хүлээн авах, бүртгэл",
-    image: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=400&h=300&fit=crop",
-    blur: true
+    time: "19:40",
+    title: "Хүлээн авалт",
+    description: "Зочдыг хүлээн авах, бүртгэл"
   },
   {
-    time: "19:30",
-    title: "Нээлтийн үг",
-    description: "Арга хэмжээний албан ёсны нээлт",
+    time: "20:00",
+    title: "Нээлт",
+    description: "Арга хэмжээний албан ёсны нээлт"
   },
   {
     time: "20:10",
-    title: "Артист",
-    description: "Гол артистын тоглолт",
-    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop"
+    title: "Тоглоом: Би хэн бэ?",
+    description:
+      "Тухайн хүний тухай факт хэлнэ. Таасан хүнд +1 оноо."
+  },
+  {
+    time: "20:25",
+    title: "Артист 1",
+    description: "Нээлтийн дараах артистын тоглолт"
+  },
+  {
+    time: "20:35",
+    title: "Хооллох",
+    description: "Уух, хооллох завсарлага"
   },
   {
     time: "21:00",
-    title: "Завсарлага",
-    description: "Уух, хооллох завсарлага",
+    title: "Тоглоом: Санал хураалт",
+    description:
+      "Ажилтай холбоотой асуулт асууна. Санал хураалт явагдана. Хамгийн олон санал авсан хүнд +1 оноо."
   },
   {
-    time: "21:30",
-    title: "DJ Set",
-    description: "Олон улсын DJ-ийн тоглолт",
-    image: "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=400&h=300&fit=crop",
-    blur: true
+    time: "21:15",
+    title: "Хооллох",
+    description: "Уух, хооллох завсарлага"
   },
   {
-    time: "23:00",
-    title: "Тусгай гэрэлтүүлэг",
-    description: "Гэрэлтүүлгийн тусгай үзүүлбэр",
+    time: "21:45",
+    title: "Артист 2",
+    description: "Хоолны дараах артистын тоглолт"
   },
   {
-    time: "00:00",
-    title: "Дуусах",
-    description: "Арга хэмжээний төгсгөл",
+    time: "21:55",
+    title: "Тоглоом: Secret Santa таах",
+    description:
+      "Нууц сантааны тухай ярьж, хэн бэлэг өгч байгааг таана. Таасан хүнд +2, дөхүүлсэн +1."
+  },
+  {
+    time: "22:25",
+    title: "Бүжиг",
+    description: "Бүжгийн хэсэг"
+  },
+  {
+    time: "22:30",
+    title: "Secret Santa reveal",
+    description:
+      "Оноогоор дуудаж бэлэг өгөх. Сэтгэгдэл хэлэх. Бэлэг өгсөн хүн гарч ирэх. Зураг авах."
+  },
+  {
+    time: "22:45",
+    title: "Сугалаа",
+    description: "Сугалаа явуулах"
+  },
+  {
+    time: "22:55",
+    title: "Шагнал",
+    description: "Ялагчдыг зарлаж, шагнал гардуулах"
+  },
+  {
+    time: "23:05",
+    title: "Артист 3",
+    description: "Бүжиг / free time үеийн артистын тоглолт"
+  },
+  {
+    time: "23:15",
+    title: "Free time",
+    description: "Чөлөөт цаг, бүжиг, зураг авалт"
   }
 ];
-
